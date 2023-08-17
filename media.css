@@ -1,0 +1,44 @@
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    gap: 1em;
+}
+
+article {
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    padding: 1em;
+}
+
+article img {
+    width: 100%;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+@media screen {
+    section {
+        background-color: blueviolet;
+    }
+    
+}
+
+@media screen and (max-width: 1500px) {
+    section {
+        background-color: rosybrown;
+    }
+    article:first-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    section {
+        background-color: yellowgreen;
+    }
+    article:last-child {
+        display: none;
+    }
+}

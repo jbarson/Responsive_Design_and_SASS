@@ -1,0 +1,21 @@
+body {
+    /* font-size: 150%; */
+    font-size: 20px;
+
+}
+
+section {
+    font-size: 2em; /*  or 200% */
+    /* width: 500px; */
+    width: 80%;
+    border: 0.2rem solid blue;
+}
+
+section p, section img {
+    /* font-size: 2em; */
+    font-size: 1rem;
+    width: 75%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
